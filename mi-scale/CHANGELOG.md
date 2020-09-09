@@ -1,3 +1,7 @@
+## [0.1.10] - 2020-09-09
+### Changed
+- Fixed MQTT Discovery value check to discover in 0.1.8
+
 ## [0.1.9] - 2020-09-08
 ### Changed
 - Fixed typo in MQTT message following the **breaking change** to snake_case attributes in 0.1.8
