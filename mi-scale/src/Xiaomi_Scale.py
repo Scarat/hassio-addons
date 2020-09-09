@@ -309,7 +309,7 @@ class ScanProcessor():
             raise
 
 def main():
-    if MQTT_DISCOVERY.lower() in ['true', '1', 'y', 'yes']:
+    if MQTT_DISCOVERY or MQTT_DISCOVERY.lower() in ['true', '1', 'y', 'yes']:
         discovery()
     BluetoothFailCounter = 0
     while True:
